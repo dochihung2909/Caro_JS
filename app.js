@@ -276,3 +276,5 @@ table.addEventListener('click', function(e){
         app.start()
     } 
 })
+
+console.log('Hello')
