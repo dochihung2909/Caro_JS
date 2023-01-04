@@ -275,6 +275,4 @@ table.addEventListener('click', function(e){
     if (e.target.closest('td')) {
         app.start()
     } 
-})
-
-console.log('Hello')
+}) 
