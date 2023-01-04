@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tic & Toe</title>
+    <style>
+        table {
+            background-color: aqua;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        td {
+            width: 50px;
+            height: 50px;
+            border: 1px solid white;
+        }
+
+        .content {
+            width: 1024px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .nobd {
+            border: none !important;
+        }
+
+        .check,
+        #countdown {
+            font-family: cursive;
+            font-weight: bold;
+            font-size: 20pt;
+            color: #53532b;
+            text-shadow: 0 0 black;
+            text-align: center;
+        }
+
+        button {
+            width: 100px;
+            margin: 12px;
+            border: none;
+            border-radius: 8px;
+            background: aliceblue;
+        }
+
+        #tic {
+            color: green;
+            font-family: monospace;
+            font-size: 25pt;
+        }
+
+        #toe {
+            color: red;
+            font-family: monospace;
+            font-size: 25pt;
+        }
+
+        .purple {
+            background: #daa1da !important;
+        }
+        
+        .blue {
+            background: aqua;
+        }
+
+        #skin {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="content">
+        <h2>Tic & Toe</h2>
+
+        <table class="purple">
+            <tr>
+                <th colspan="10">
+                    <button class="check" id="start">Start</button>
+                    <button class="check" id="tictoe" disabled><span id="tic">X</span> / <span id="toe">O</span>
+                    </button>
+                    <button class="check" id="skin">Skin</button>
+                    <button class="check" id="clear">Clear</button>
+                    <div id="countdown">
+                        <span id="m">00</span> :
+                        <span id="s">00</span>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
